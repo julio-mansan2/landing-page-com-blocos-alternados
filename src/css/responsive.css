@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    
+    .users-mobile,.grow-mobile {
+        display: block;
+    }
+
+    .users-img,.grow-img {
+        display: none;
+    }
+    
+    .header {
+        background-image: url(../images/bg-hero-mobile.svg);
+    }
+    
+    .header .logo {
+        margin-bottom: 80px;
+    }
+
+    .header .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal .advice {
+        right: 10%;
+        left: 10%;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        padding: 220px 30px 0px 40px;
+    }
+
+    .contact img {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer section {
+        justify-self: flex-start;
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+
+    .footer .social-medias {
+        justify-self: center;
+        text-align: center;
+    }
+    
+}
