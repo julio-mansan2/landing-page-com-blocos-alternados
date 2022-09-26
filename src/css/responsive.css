@@ -21,13 +21,17 @@
         text-align: center;
     }
 
+    .principal {
+        margin: 150px 20px;
+    }
+
     .principal section {
         flex-direction: column;
         text-align: center;
     }
 
     .principal .advice {
-        bottom: -15%;
+        bottom: -12%;
         right: 10%;
         left: 10%;
     }
