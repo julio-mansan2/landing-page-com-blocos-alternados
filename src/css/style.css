@@ -36,7 +36,6 @@ li, span {
     grid-area: header;
     background: url(../images/bg-hero-desktop.svg) center center no-repeat;
     padding: 50px 100px;
-    margin-bottom: 30px;
 }
 
 .header .logo {
@@ -94,7 +93,7 @@ li, span {
 }
 
 .principal {
-    margin: 200px 100px;
+    margin: 150px 50px;
     position: relative;
 
 }
